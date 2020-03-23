@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clip-path Exercise</title>
+  </head>
+  <body>
+    <h1>
+      Images shaped with <u><i>clip-path property</i></u>
+    </h1>
+    <div class="left">
+      <p class="text">SPORTS</p>
+    </div>
+    <div class="top">
+      <p class="text">TECHNOLOGY</p>
+    </div>
+    <div class="right">
+      <p class="text">FOOD</p>
+    </div>
+    <div class="bottom">
+      <p class="text">NATURE</p>
+    </div>
+    <img
+      src="https://i.pinimg.com/originals/61/d6/0f/61d60f8d6a42640e82b828323327a167.jpg"
+      alt=""
+      class="clip-svg"
+    />
+    <svg width="0" height="0">
+      <defs>
+        <clipPath id="tanzania">
+          <circle cx="100" cy="100" r="40" />
+          <circle cx="60" cy="60" r="40" />
+        </clipPath>
+      </defs>
+    </svg>
+  </body>
+</html>
